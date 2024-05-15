@@ -46,6 +46,6 @@
 };
 
 / {
-	model = "Milk-V DuoS";
+	model = "Meshtastic Milk-V DuoS";
 };
 
