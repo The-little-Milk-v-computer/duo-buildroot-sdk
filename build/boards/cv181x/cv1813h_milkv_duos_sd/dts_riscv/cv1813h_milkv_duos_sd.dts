@@ -41,6 +41,14 @@
 	wakeup-gpio = <&porte 7 GPIO_ACTIVE_HIGH>;
 };
 
+&spi2 {
+	status = "okay";
+
+	spidev@0 {
+		status = "okay";
+	};
+};
+
 &uart4 {
 	status = "okay";
 };
